@@ -48,3 +48,15 @@ en:
             username:
               blank: " is missing. You need to pick one. And pick one wisely."
               taken: " must be unique. And someone already got to that one. Should've signed up sooner."
+en:
+  hello: "Hello world"
+  datetime:
+    distance_in_words:
+      x_minutes:
+        one: "1m"
+        other: "%{count}m"
+      about_x_hours:
+        one: "1h"
+        other: "%{count}h"
+  # stuff we did in the first
+  # set of slides is still down here
