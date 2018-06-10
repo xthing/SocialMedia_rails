@@ -13,7 +13,8 @@ Rails.application.routes.draw do
   get 'now_following' => 'epicenter#now_following'
 
   get 'unfollow' => 'epicenter#unfollow'
-
+  
+  get 'tag_tweets' => 'epicenter#tag_tweets'
   # get 'epicenter/unfollow'
 
   resources :tweets

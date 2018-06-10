@@ -16,7 +16,7 @@
   <tbody>
     <% @tweets.each do |tweet| %>
       <tr>
-        <td class="td_layout"><%= tweet.message %></td>
+        <td class="td_layout"><%= tweet.message.html_safe %></td>
         <td class="td_layout"><%= tweet.user_id %></td>
         <td class="td_layout"><div><%= link_to tweet.user.username, show_user_path(id: tweet.user.id), class: "btn btn-default" %></div></td>
         <td class="td_layout"><div><%= link_to 'Show', tweet, class: "btn btn-warning" %></div></td>
