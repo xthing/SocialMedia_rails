@@ -1,10 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Project includes all 3 slide sets for the social project tts class assignment 
 
 Things you may want to cover:
 
+Download the project 
+run 
+rails db:migrate 
+<to create user saveable tables>
+
+next start server
 * Ruby version
 
 * System dependencies
